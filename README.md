@@ -7,15 +7,18 @@ GOAL OF THIS PROJECT:
 
 STEPS: 
 
-/Reading from multiple files
-1) Use import java.io.* and java.util.*; so we can use BufferedReader and io for files
-2) Create files with the file path in a variable named file1, file2, and file3
-3) Create ArrayList named myFiles to store the 3 files that we're reading from
+**Reading from multiple files
 
-/Build playlist
-4) Use a for loop with the br (BufferedReader) to read each file.
-5) Create a queue with named playlist to print all the tracks. 
-6) Use a for loop to print the tracks including a counter to keep count of the tracks
+* Use import java.io.* and java.util.*; so we can use BufferedReader and io for files
+* Create files with the file path in a variable named file1, file2, and file3
+* Create ArrayList named myFiles to store the 3 files that we're reading from
 
-/To find last played song:
-7) Each time a song is played add it to the stack. To retrieve last played song use peek()
+**Build playlist
+
+* Use a for loop with the br (BufferedReader) to read each file.
+* Create a queue with named playlist to print all the tracks. 
+* Use a for loop to print the tracks including a counter to keep count of the tracks
+
+**To find last played song:
+
+*  Each time a song is played add it to the stack. To retrieve last played song use peek()
