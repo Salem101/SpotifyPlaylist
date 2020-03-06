@@ -36,8 +36,10 @@ public class Spotify2 {
 			System.out.println(counter + tracks.get(j));
 			counter++;
 		}
-
-		String head = playlist.peek(); 
+		//Each time a song is played you add it to the stack and to find the last played song you just peek.
+		Stack <String> songHistory = new Stack<String>(); 
+		//songHistory.push();
+		String head = songHistory.peek(); 
 		System.out.println("Last played song: " +head);
 		
 		//method to get song
